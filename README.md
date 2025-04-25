@@ -15,25 +15,22 @@
 
 ---
 ### Project Download Link
-- [Click Here to Download the PowerBI file](#)
+- [Click Here to Download the PowerBI file](https://github.com/alvincsh/Malaysian-Population-Project/blob/main/Malaysian%20Population%20Visuals.pbix)
 ---
 
 ### <ins>Project Screenshots</ins>
 
+![Malaysian Population Analysis Dashboard (3)](https://github.com/user-attachments/assets/748595c8-fb54-4157-b187-1c7cf98dd305)
 
 
----
 
 ### Project Overview
 
-The aim of this project is to analyze the Malaysian Population since 1970 until 2024, identify population growth trends and patterns and analyse them from the perspective or ethnicity and gender.
+The aim of this project is to analyze the Malaysian Population since 1970 until 2024, identify population growth trends and patterns and analyse them from the perspective of ethnicity and gender.
 
 ### Data Sources
 
-In this project, 1 CSV obtained from the [data.gov.my Website](https://data.gov.my/data-catalogue/population_malaysia) was utilized as listed below:
-
-- population_malaysia.csv
-- [Click Here to Download the CSV file](#)
+In this project, 1 CSV file obtained from the [data.gov.my Website](https://data.gov.my/data-catalogue/population_malaysia) was utilized as the source data.
 
 
 ### Tools
@@ -61,7 +58,7 @@ The initial data preparation phase included the following steps:
 
    CREATE TABLE my_pop
    (
-	  `date` DATE,
+    `date` DATE,
     sex VARCHAR(255),
     age VARCHAR(255),
     ethnicity VARCHAR(255),
@@ -231,15 +228,15 @@ Below are the MySQL queries used to obtain the answers to the questions above:
 
 ### Results
 
-The results output CSV files are as below:
-1. [Click Here to Download Output 1](#)
-2. [Click Here to Download Output 2](#)
-3. [Click Here to Download Output 3](#)
-4. [Click Here to Download Output 4](#)
-5. [Click Here to Download Output 5](#)
-6. [Click Here to Download Output 6](#)
-7. [Click Here to Download Output 7](#)
-8. [Click Here to Download Output 8](#)
+The answer output CSV files are as below:
+1. [Click Here to Download Output 1](https://github.com/alvincsh/Malaysian-Population-Project/blob/main/MySQL%20Output/answer%201%20min%20and%20max%20date%20range.csv)
+2. [Click Here to Download Output 2](https://github.com/alvincsh/Malaysian-Population-Project/blob/main/MySQL%20Output/answer%202%20overall%20population%20of%20each%20yr%20by%20gender.csv)
+3. [Click Here to Download Output 3](https://github.com/alvincsh/Malaysian-Population-Project/blob/main/MySQL%20Output/answer%203%20latest%20overall%20population.csv)
+4. [Click Here to Download Output 4](https://github.com/alvincsh/Malaysian-Population-Project/blob/main/MySQL%20Output/answer%204%20male%20to%20female%20ratio%20for%20each%20year.csv)
+5. [Click Here to Download Output 5](https://github.com/alvincsh/Malaysian-Population-Project/blob/main/MySQL%20Output/answer%205%20age%20brackets%20with%20highest%20and%20lowest%20population%20for%20latest%203%20years.csv)
+6. [Click Here to Download Output 6](https://github.com/alvincsh/Malaysian-Population-Project/blob/main/MySQL%20Output/answer%206%20YoY%20population%20growth.csv)
+7. [Click Here to Download Output 7](https://github.com/alvincsh/Malaysian-Population-Project/blob/main/MySQL%20Output/answer%207%20Years%20with%20highest%20and%20lowest%20overall%20population.csv)
+8. [Click Here to Download Output 8](https://github.com/alvincsh/Malaysian-Population-Project/blob/main/MySQL%20Output/answer%208%20population%20ratio%20between%203%20major%20ethnic%20groups%20in%202024.csv)
 
 
 ### Observations:
